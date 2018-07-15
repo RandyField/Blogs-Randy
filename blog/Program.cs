@@ -30,6 +30,7 @@ namespace blog
 
                 //Startup.cs-Startup class
                 // .UseStartup<Startup>();
-                .UseStartup<StartupDevelopment>();
+                // .UseStartup<StartupDevelopment>();
+                .UseStartup(typeof(StartupDevelopment));
     }
 }
